@@ -63,7 +63,7 @@ to combine them and turn them into a username. The "." is included to place peri
 Example:
 
 	make_username("Thim", "Huit")
-This name will be processed into thimhuit and now it is processed the function will use the 
+This name will be processed into thim and huit and after it is processed the function will use the 
 
 	first_name + "." + last_name
 
@@ -93,7 +93,7 @@ and by using this code swap_bookends()
 it will swap the first and last number but retaining the middle part like this:
 
 	first = 1
-	middle = 2,3,4,5
+	middle = [2,3,4,5]
 	last = 6
 
 So the result will be:
